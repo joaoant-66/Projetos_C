@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------------------------
+
+ Pais Representado: Brasil
+
+ Esporte: Natacao
+ Quantidade de membros: 26
+
+ Membros da equipe: Aline_da_Silva_Rodrigues,Ana_Carolina_Vieira,Beatriz_Pimentel,Breno_Martins,Bruno_Giuseppe,Caio_Rodrigues,Etiene_Pires,Felipe_Ferreira,Fernando_Muhlenberg
+--------------------------------------------------------------------------------------------------

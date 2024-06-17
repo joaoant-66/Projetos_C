@@ -1,0 +1,63 @@
+
+
+		|Atleta:Neymar_Jr.
+		|Bronze:0
+		|Prata:1
+		|Ouro:1
+		|TOTAL:2
+
+
+
+
+		|Atleta:Gabriel_Medina
+		|Bronze:0
+		|Prata:0
+		|Ouro:0
+		|TOTAL:0
+
+
+
+
+		|Atleta:Italo_Ferreira
+		|Bronze:0
+		|Prata:1
+		|Ouro:0
+		|TOTAL:1
+
+
+
+
+		|Atleta:C.Nilsen
+		|Bronze:0
+		|Prata:1
+		|Ouro:0
+		|TOTAL:1
+
+
+
+
+		|Atleta:K.Ledecky
+		|Bronze:1
+		|Prata:0
+		|Ouro:0
+		|TOTAL:1
+
+
+
+
+		|Atleta:D.Hashimoto
+		|Bronze:0
+		|Prata:1
+		|Ouro:0
+		|TOTAL:1
+
+
+
+
+		|Atleta:Y.Ohashi
+		|Bronze:0
+		|Prata:1
+		|Ouro:0
+		|TOTAL:1
+
+

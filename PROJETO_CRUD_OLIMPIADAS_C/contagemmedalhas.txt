@@ -1,0 +1,30 @@
+		|PAIS: Estados_Unidos
+		|BRONZE:33
+		|PRATA:41
+		|OURO:39
+		|TOTAL:113
+
+		|PAIS: China
+		|BRONZE:18
+		|PRATA:32
+		|OURO:38
+		|TOTAL:88
+
+		|PAIS: Japao
+		|BRONZE:17
+		|PRATA:14
+		|OURO:27
+		|TOTAL:58
+
+		|PAIS: Gra_Bretanha
+		|BRONZE:22
+		|PRATA:21
+		|OURO:22
+		|TOTAL:65
+
+		|PAIS: Brasil
+		|BRONZE:8
+		|PRATA:6
+		|OURO:7
+		|TOTAL:21
+

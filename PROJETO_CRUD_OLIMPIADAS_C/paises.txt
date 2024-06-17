@@ -1,0 +1,12 @@
+		  -Estados_Unidos
+		  -China
+		  -Japao
+		  -Gra_Bretanha
+		  -Atletas_da_Russia
+		  -Australia
+		  -Holanda
+		  -Alemanha
+		  -Franca
+		  -Italia
+		  -Canada
+		  -Brasil

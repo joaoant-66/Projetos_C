@@ -1,0 +1,91 @@
+# Project: PIM
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = tela01.o main.o tela_opcoes.o cadastro_de_conta_e_login.o ../PIM/printtela.o menu_principal.o areas_gerenciamento.o cadastro_equipamentos.o controle_COVID.o cadastro_modalidades.o cadastro_atletas.o cadastro_paises.o cadastro_equipemedica.o areas_consultas.o cadastro_voluntarios.o contagem_de_medalhas.o cadastro_funcionarios.o cadastro_local_jogos.o atletas_medalhistas.o cadastro_alojamentos.o cadastro_equipe.o calendario_olimpico.o
+LINKOBJ  = tela01.o main.o tela_opcoes.o cadastro_de_conta_e_login.o ../PIM/printtela.o menu_principal.o areas_gerenciamento.o cadastro_equipamentos.o controle_COVID.o cadastro_modalidades.o cadastro_atletas.o cadastro_paises.o cadastro_equipemedica.o areas_consultas.o cadastro_voluntarios.o contagem_de_medalhas.o cadastro_funcionarios.o cadastro_local_jogos.o atletas_medalhistas.o cadastro_alojamentos.o cadastro_equipe.o calendario_olimpico.o
+LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = PIM.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+tela01.o: tela01.c
+	$(CC) -c tela01.c -o tela01.o $(CFLAGS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+tela_opcoes.o: tela_opcoes.c
+	$(CC) -c tela_opcoes.c -o tela_opcoes.o $(CFLAGS)
+
+cadastro_de_conta_e_login.o: cadastro_de_conta_e_login.c
+	$(CC) -c cadastro_de_conta_e_login.c -o cadastro_de_conta_e_login.o $(CFLAGS)
+
+../PIM/printtela.o: ../PIM/printtela.c
+	$(CC) -c ../PIM/printtela.c -o ../PIM/printtela.o $(CFLAGS)
+
+menu_principal.o: menu_principal.c
+	$(CC) -c menu_principal.c -o menu_principal.o $(CFLAGS)
+
+areas_gerenciamento.o: areas_gerenciamento.c
+	$(CC) -c areas_gerenciamento.c -o areas_gerenciamento.o $(CFLAGS)
+
+cadastro_equipamentos.o: cadastro_equipamentos.c
+	$(CC) -c cadastro_equipamentos.c -o cadastro_equipamentos.o $(CFLAGS)
+
+controle_COVID.o: controle_COVID.c
+	$(CC) -c controle_COVID.c -o controle_COVID.o $(CFLAGS)
+
+cadastro_modalidades.o: cadastro_modalidades.c
+	$(CC) -c cadastro_modalidades.c -o cadastro_modalidades.o $(CFLAGS)
+
+cadastro_atletas.o: cadastro_atletas.c
+	$(CC) -c cadastro_atletas.c -o cadastro_atletas.o $(CFLAGS)
+
+cadastro_paises.o: cadastro_paises.c
+	$(CC) -c cadastro_paises.c -o cadastro_paises.o $(CFLAGS)
+
+cadastro_equipemedica.o: cadastro_equipemedica.c
+	$(CC) -c cadastro_equipemedica.c -o cadastro_equipemedica.o $(CFLAGS)
+
+areas_consultas.o: areas_consultas.c
+	$(CC) -c areas_consultas.c -o areas_consultas.o $(CFLAGS)
+
+cadastro_voluntarios.o: cadastro_voluntarios.c
+	$(CC) -c cadastro_voluntarios.c -o cadastro_voluntarios.o $(CFLAGS)
+
+contagem_de_medalhas.o: contagem_de_medalhas.c
+	$(CC) -c contagem_de_medalhas.c -o contagem_de_medalhas.o $(CFLAGS)
+
+cadastro_funcionarios.o: cadastro_funcionarios.c
+	$(CC) -c cadastro_funcionarios.c -o cadastro_funcionarios.o $(CFLAGS)
+
+cadastro_local_jogos.o: cadastro_local_jogos.c
+	$(CC) -c cadastro_local_jogos.c -o cadastro_local_jogos.o $(CFLAGS)
+
+atletas_medalhistas.o: atletas_medalhistas.c
+	$(CC) -c atletas_medalhistas.c -o atletas_medalhistas.o $(CFLAGS)
+
+cadastro_alojamentos.o: cadastro_alojamentos.c
+	$(CC) -c cadastro_alojamentos.c -o cadastro_alojamentos.o $(CFLAGS)
+
+cadastro_equipe.o: cadastro_equipe.c
+	$(CC) -c cadastro_equipe.c -o cadastro_equipe.o $(CFLAGS)
+
+calendario_olimpico.o: calendario_olimpico.c
+	$(CC) -c calendario_olimpico.c -o calendario_olimpico.o $(CFLAGS)

@@ -1,0 +1,5 @@
+Estados_Unidos  113
+China  88
+Japao  58
+Gra_Bretanha  65
+Brasil  21
